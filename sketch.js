@@ -1,7 +1,7 @@
 let loopers;
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
 
   loopers = [];
   for (let i = 0; i < 50; i++) {
